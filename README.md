@@ -1,14 +1,14 @@
 RK-AtomicUpdate
 ===============
 
-A objc-category supporting atomic updates with Core Data and Reskit
+A objc-category supporting atomic updates with Core Data and Reskit.
 It will only send the changed attributes to the server, in a PATCH request.
 
 ##Features
 - Seamlessly integrates with Restkit 0.20.0
 - Detects changes in normal attributes
-- Detects changes one-to-many relations
-- Detects changes one-to-one relations
+- Detects changes in one-to-many relations
+- Detects changes in one-to-one relations
 - Respects your mapping
 
 ##Requirements / limitations
@@ -33,6 +33,11 @@ And change note from a "A programmer" to "A great programmer" and then use atomi
 
 So instead of sending the whole object again you saved yourself some bytes ;)
 It also lowers the chance of conflicting in case when you have a offline mode
+
+##Real life uses
+
+- 54Ops (coming soon, check out http://54limited.com for more info)
+
 
 ##Installation
 
