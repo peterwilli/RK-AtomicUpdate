@@ -7,7 +7,6 @@
 //
 
 #import "RKObjectManager+AtomicUpdate.h"
-#import "AFNetworking.h"
 
 @implementation RKObjectManager (AtomicUpdate)
 
@@ -39,7 +38,7 @@ NSArray *updateForceKeys_;
     } failure:^(AFHTTPRequestOperation *operation_, NSError *error) {
         failure(operation_, error);
     }];
-    [operation start];
+    [AFOperation start];
 }
 
 - (void) setUpdateForceKeys:(NSArray *)updateForceKeys
