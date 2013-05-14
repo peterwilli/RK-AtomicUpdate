@@ -37,6 +37,7 @@ It also lowers the chance of conflicting in case when you have a offline mode
 ##Real life uses
 
 - 54Ops (coming soon, check out http://54limited.com for more info)
+- TogetherNow (coming soon, check out http://togethernowapp.com for more info and a beta request)
 
 
 ##Installation
